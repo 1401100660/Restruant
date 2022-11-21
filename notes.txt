@@ -1,0 +1,63 @@
+beef taco This Item has wonderous kidney beans with plentliful pinto beans and wonderous kidney beans
+chicken taco This Item has cool lettuce with plentliful pinto beans and white and chedder cheese
+pork taco This Item has white and chedder cheese with wonderous kidney beans and oily avocados
+beef burrito This Item has cool lettuce with wonderous kidney beans and white and chedder cheese
+chicken burrito This Item has plentliful pinto beans with heirloom tomato and wonderous kidney beans
+pork burrito This Item has wonderous kidney beans with oily avocados and cool lettuce
+
+
+
+####Business Name
+HEX:
+#c10000
+RGB:
+193 0 0
+CMYK:
+0 100 100 24
+Pantone:
+18-1664
+####Slogan
+HEX:
+#003C3B
+RGB:
+0 60 59
+CMYK:
+100 0 2 76
+Pantone:
+19-5220
+####Icon
+HEX:
+#003C3B
+RGB:
+0 60 59
+CMYK:
+100 0 2 76
+Pantone:
+19-5220
+####Background
+HEX:
+#FFFFFF
+RGB:
+255 255 255
+CMYK:
+0 0 0 0
+Pantone:
+11-0601
+####Background Elements
+HEX:
+#c10000
+RGB:
+193 0 0
+CMYK:
+0 100 100 24
+Pantone:
+18-1664
+####Foreground Elements
+HEX:
+#FFFFFF
+RGB:
+255 255 255
+CMYK:
+0 0 0 0
+Pantone:
+11-0601

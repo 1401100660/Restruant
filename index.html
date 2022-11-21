@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Display -->
+    <title>Tico's Tacos</title>
+</head>
+<body style="background-color: white; margin: 0px; height: 2160px; font-family: CustomFont; text-align: center; color:#c10000;">
+    <!-- Content, the direction of the ID's and Classes is mirrored to the user. -->
+    <div class="nav">
+        <div class="nav-left"></div>
+        <div class="nav-right">
+            <h1 style="font-size: 4.2em;margin: 1px;">"Tico's Tacos, They're Yummy"</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div id="content-right-midtop">
+            <h2 style="font-weight: normal;font-size: 30px;">
+                This is <b>Tico's Tacos</b>, If you like Tacos you're in the right place, the very right place. <b>we are going to be everywhere</b> because
+                 <b>we are a food truck</b>. We stop by Roosevelt High to Waikiki Beach to The North Shore. 
+                Give us a call to find out where we are. C'mon, <b>get yourself a Taco Amigo</b>.
+            </h2>
+        </div>
+        <hr>
+        <div class="content-buy">
+            <div style="height: 30px;">
+                <location id="content-location"></location>
+                <div style="float:right; width: 30px; height: 100%; background-color: pink; margin-right: 8px; margin-top: 8px;"></div>
+            </div>
+            <div><h2 style="font-family: arial ;">order food here</h2></div>
+            <div>
+                <div class="food">
+                    <button onclick="store('beef-taco')">ADD</button>
+                    <button onclick="$getstore('0')"> show </button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* Var */
+:root{
+    --max: "inherit";
+    --logowidth: 490px;
+    --logoleft: -98px;
+}
+/*  Content */
+body, html{
+    width: 100%;
+    height: 100%;
+}
+location{
+    background-color: pink;
+    float: left;
+    width: fit-content;
+    height: 10px;
+}
+button{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    margin: 0px;
+    border: 0.1px #000 solid;
+}
+b{
+    font-weight: bolder;
+    font-size: 33px;
+}
+.nav{
+    width: 100%;
+}
+.nav-left{
+    position: absolute; top: 0px; left: var(--logoleft);
+    width: var(--logowidth);
+    height: 369px;
+    border-radius: 50%;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+.nav-right{
+    padding-left: 369px;
+    height: 36px;
+    width: 100% - var(--logowidth);
+}
+.content{
+    background-color: white;
+    padding-top: 69px;
+    color:#003C3B;
+}
+#content-right-midtop{
+    padding-left: 392px;
+}
+.content-buy{
+    background-color: #c10000;
+    color: #ffff;
+}
+.food{
+    width: 100px;
+    height: 100px;
+    background-color: #003C3B;
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('tts-charmonman-regular.ttf');
+  }
