@@ -61,3 +61,21 @@ CMYK:
 0 0 0 0
 Pantone:
 11-0601
+
+DO CRAZY SHITTTT
+/* create flex parent */
+.parenet{
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}
